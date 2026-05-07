@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "orange-speaking-icon.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
