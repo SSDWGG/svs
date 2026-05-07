@@ -107,7 +107,7 @@ final class StudyReminderActivityService: ObservableObject {
         StudyReminderAttributes.ContentState(
             lessonTitle: lessonTitle,
             lessonTarget: lessonTarget,
-            prompt: "快来橙子口语学习",
+            prompt: "快来斯内克口语学习",
             catActionPhase: phase
         )
     }

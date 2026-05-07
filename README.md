@@ -1,4 +1,4 @@
-# 橙子口语 (OrangeSpeaking)
+# 斯内克口语 (Snake Speaking)
 
 一款基于 AI 语音技术的英语口语学习应用，帮你系统掌握标准的英语发音。
 

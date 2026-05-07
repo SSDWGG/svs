@@ -123,7 +123,7 @@ private struct OrangeSpeakingWidgetView: View {
             HStack(spacing: 6) {
                 OrangeWidgetMark()
                     .frame(width: 24, height: 24)
-                Text("橙子口语")
+                Text("斯内克口语")
                     .font(.caption.weight(.black))
                     .foregroundStyle(Color(red: 0.11, green: 0.11, blue: 0.13))
                 Spacer(minLength: 0)
@@ -160,7 +160,7 @@ private struct OrangeSpeakingWidgetView: View {
                 HStack(spacing: 6) {
                     OrangeWidgetMark()
                         .frame(width: 28, height: 28)
-                    Text("橙子口语")
+                    Text("斯内克口语")
                         .font(.subheadline.weight(.black))
                         .foregroundStyle(Color(red: 0.11, green: 0.11, blue: 0.13))
                 }
@@ -223,7 +223,7 @@ struct OrangeSpeakingWidget: Widget {
         StaticConfiguration(kind: kind, provider: OrangeSpeakingTimelineProvider()) { entry in
             OrangeSpeakingWidgetView(entry: entry)
         }
-        .configurationDisplayName("橙子口语每日练习")
+        .configurationDisplayName("斯内克口语每日练习")
         .description("每天提醒你练一个基础口语发音。")
         .supportedFamilies([.systemSmall, .systemMedium])
     }
@@ -258,7 +258,7 @@ struct StudyReminderLiveActivityWidget: Widget {
                         Text(context.state.lessonTitle)
                             .lineLimit(1)
                         Spacer(minLength: 0)
-                        Text("橙子口语")
+                        Text("斯内克口语")
                     }
                     .font(.caption.weight(.black))
                     .foregroundStyle(Color(red: 1.00, green: 0.96, blue: 0.88))

@@ -49,7 +49,7 @@ export default function App() {
         <div className="nav-inner">
           <a href="/svs/" className="logo">
             <img src="/svs/cat_1.png" alt="" className="logo-img" />
-            <span>橙子口语</span>
+            <span>斯内克口语</span>
           </a>
           <div className="nav-links">
             <a href="https://github.com/SSDWGG/svs" target="_blank" rel="noopener noreferrer" className="nav-link">
@@ -93,7 +93,7 @@ export default function App() {
         </div>
         <div className="hero-visual">
           <div className="hero-cat-ring">
-            <img src="/svs/cat_1.png" alt="橙子口语吉祥物" className="hero-cat" />
+            <img src="/svs/cat_1.png" alt="斯内克口语吉祥物" className="hero-cat" />
           </div>
           <div className="hero-float-card hero-float-1">
             <div className="float-icon float-icon-green">
@@ -210,7 +210,7 @@ export default function App() {
         <div className="footer-inner">
           <div className="footer-brand">
             <img src="/svs/cat_1.png" alt="" className="footer-logo" />
-            <span className="footer-name">橙子口语</span>
+            <span className="footer-name">斯内克口语</span>
           </div>
           <div className="footer-links">
             <a href="https://github.com/SSDWGG/svs" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -219,7 +219,7 @@ export default function App() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>橙子口语 — 用 AI 学纯正英语发音</p>
+          <p>斯内克口语 — 用 AI 学纯正英语发音</p>
         </div>
       </footer>
     </div>
