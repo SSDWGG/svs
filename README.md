@@ -2,6 +2,16 @@
 
 一款基于 AI 语音技术的英语口语学习应用，帮你系统掌握标准的英语发音。
 
+## 在线预览
+
+| 端点 | 地址 | 说明 |
+|------|------|------|
+| 🔗 VPS 主域名 | [https://svs.ssdwgg.site](https://svs.ssdwgg.site) | 服务器部署，HTTPS 加密 |
+| 🔗 VPS 备用域名 | [https://svs.aiwgg.cn](https://svs.aiwgg.cn) | 服务器部署，HTTPS 加密 |
+| 🔗 GitHub Pages | [https://ssdwgg.github.io/svs/](https://ssdwgg.github.io/svs/) | GitHub Pages 自动部署 |
+
+> 每次 `git push origin main` 后，GitHub Actions 自动构建并同步部署到以上三个端点。
+
 ## 核心功能
 
 ### 📱 双端学习体验
