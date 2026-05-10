@@ -47,8 +47,8 @@ export default function App() {
       {/* Nav */}
       <nav className="nav">
         <div className="nav-inner">
-          <a href="/svs/" className="logo">
-            <img src="/svs/cat_1.png" alt="" className="logo-img" />
+          <a href={import.meta.env.BASE_URL} className="logo">
+            <img src={`${import.meta.env.BASE_URL}cat_1.png`} alt="" className="logo-img" />
             <span>斯内克口语</span>
           </a>
           <div className="nav-links">
@@ -93,7 +93,7 @@ export default function App() {
         </div>
         <div className="hero-visual">
           <div className="hero-cat-ring">
-            <img src="/svs/cat_1.png" alt="斯内克口语吉祥物" className="hero-cat" />
+            <img src={`${import.meta.env.BASE_URL}cat_1.png`} alt="斯内克口语吉祥物" className="hero-cat" />
           </div>
           <div className="hero-float-card hero-float-1">
             <div className="float-icon float-icon-green">
@@ -209,7 +209,7 @@ export default function App() {
       <footer className="footer">
         <div className="footer-inner">
           <div className="footer-brand">
-            <img src="/svs/cat_1.png" alt="" className="footer-logo" />
+            <img src={`${import.meta.env.BASE_URL}cat_1.png`} alt="" className="footer-logo" />
             <span className="footer-name">斯内克口语</span>
           </div>
           <div className="footer-links">
